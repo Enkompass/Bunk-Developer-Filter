@@ -1,0 +1,48 @@
+.v-dialog {
+  h2 {
+    font-family: SF-Pro;
+    font-size: pt2rem(32);
+    font-weight: $font-weight-normal;
+    line-height: 1;
+    @media #{map-get($display-breakpoints, 'md-and-down')} {
+      font-size: pt2rem(17);
+    }
+  }
+  h3 {
+    font-family: SF-Pro;
+    @media #{map-get($display-breakpoints, 'md-and-down')} {
+      font-size: pt2rem(11);
+    }
+  }
+  .v-btn__content {
+    font-size: pt2rem(17) !important;
+  }
+}
+
+.timepicker-dialog {
+  .v-time-picker-title__time .v-picker__title__btn, .v-time-picker-title__time span {
+    height: 30px !important;
+    font-size: 30px !important;
+  }
+  .v-time-picker-title__time {
+    margin: auto !important;
+  }
+}
+
+.rounded-md {
+  border-radius: 14px !important;
+}
+.v-dialog .v-btn__content {
+  font-size: pt2rem(14) !important;
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    font-size: pt2rem(12) !important;
+  }
+}
+
+.font28 {
+  font-size: 28px !important;
+}
+
+.image_edit_dialog {
+
+}

@@ -1,0 +1,3 @@
+@function pt2rem($size) {
+  @return $font-size-base * $size / 16;
+}

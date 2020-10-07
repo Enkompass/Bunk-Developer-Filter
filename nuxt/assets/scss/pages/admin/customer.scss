@@ -1,0 +1,7 @@
+.admin-customer {
+  .v-select {
+    @media #{map-get($display-breakpoints, 'md-and-up')} {
+      max-width: 150px;
+    }
+  }
+}

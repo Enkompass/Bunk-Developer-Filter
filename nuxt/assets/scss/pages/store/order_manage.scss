@@ -1,0 +1,47 @@
+.store-order-manage {
+  .v-item-group {
+    .v-chip--active {
+      .v-chip__content {
+        color: #000000;
+        i {
+          color: $secondary !important;
+        }
+      }
+    }
+  }
+  .v-chip {
+    padding: 0;
+  }
+  .v-chip--active::before, .v-chip:focus::before {
+    opacity: 0 !important;
+  }
+  .v-chip--clickable:active {
+    box-shadow: none !important;
+  }
+  .v-chip:not(.v-chip--active) {
+    background: #ffffff;
+  }
+  .v-data-table > .v-data-table__wrapper > table > thead > tr > th {
+    font-size: pt2rem(14);
+  }
+  .v-data-table > .v-data-table__wrapper > table > thead > tr > th {
+    color: #000000 !important;
+  }
+  .v-chip .v-icon {
+    font-size: pt2rem(20);
+  }
+  table {
+    th {
+      border-left: 1px solid #dddddd;
+    }
+    td {
+      border-left: 1px solid #dddddd;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  .v-sheet.v-card, .v-dialog {
+    border-radius: 14px !important;
+  }
+}

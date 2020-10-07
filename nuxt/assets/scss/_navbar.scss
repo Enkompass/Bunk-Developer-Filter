@@ -1,0 +1,56 @@
+.navbar {
+  .v-list {
+    padding: 0 0;
+    .v-list-item__action {
+      margin: 12px 8px 12px 0 !important;
+    }
+  }
+  .v-list-item__content {
+    padding: 9px 0 !important;
+  }
+  .v-list-item__title {
+    font-family: SF-Pro;
+    font-size: pt2rem(12);
+  }
+  .list-item {
+    font-family: SF-Pro;
+    max-height: 60px;
+    height: 60px;
+    h2 {
+      font-size: pt2rem(23) !important;
+    }
+  }
+  .v-toolbar__title {
+    font-size: pt2rem(23) !important;
+  }
+  .v-list-group {
+    .v-list-item__icon.v-list-group__header__prepend-icon {
+      margin-right: 9px !important;
+    }
+    .v-list-item__icon.v-list-group__header__append-icon {
+      margin-left: 0 !important;
+    }
+    .v-list-group__items {
+      .v-list-item {
+        padding-left: 48px !important;
+      }
+    }
+  }
+  .safari-margin {
+    @supports (-webkit-touch-callout: none) {
+      @media #{map-get($display-breakpoints, 'md-and-down')} {
+        margin-bottom: 80px;
+      }
+      @media only screen and (-webkit-device-pixel-ratio: 3) {
+        @media #{map-get($display-breakpoints, 'md-and-down')} {
+          margin-bottom: 120px;
+        }
+      }
+      @media only screen and (-webkit-device-pixel-ratio: 2) {
+        @media #{map-get($display-breakpoints, 'md-and-down')} {
+          margin-bottom: 80px;
+        }
+      }
+    }
+  }
+}

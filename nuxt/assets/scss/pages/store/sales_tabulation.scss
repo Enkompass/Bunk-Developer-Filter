@@ -1,0 +1,29 @@
+.store-sales-tabulation {
+  .tabbtn {
+
+  }
+  .border-active {
+    border-bottom: 3px $secondary solid !important;
+  }
+  .total {
+    position: absolute;
+    margin-top: auto;
+    margin-left: -38% !important;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: calc(50% + 16px);
+    transform: perspective(1px) translateY(-50%);
+  }
+  .weekly {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 28px;
+    top: 50%;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: perspective(1px) translateY(-50%);
+  }
+}

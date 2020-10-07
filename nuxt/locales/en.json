@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "login": "Login",
+    "email": "Email",
+    "email_placeholder": "Please input Email",
+    "password_placeholder": "Password"
+  },
+  "top": {
+    "prepare": "Now preparing",
+    "working": "Now working",
+    "order_receive": "Order receive",
+    "today_reserve": "Today's reserve",
+    "goto_order_details": "Go to Order Details",
+    "business_hours": "Business Hours"
+  }
+}

@@ -1,0 +1,49 @@
+.store-top {
+  .v-card {
+    padding: 25px 40px 32px 40px;
+    @media #{map-get($display-breakpoints, 'md-and-down')} {
+      padding: 10px 12px;
+    }
+  }
+  h1 {
+    font-family: SF-Pro;
+    font-size: pt2rem(44);
+    line-height: 1;
+    @media #{map-get($display-breakpoints, 'md-and-down')} {
+      font-size: pt2rem(40);
+    }
+  }
+  .h0 {
+    font-family: SF-Pro;
+    font-size: pt2rem(60);
+    line-height: 1;
+    @media #{map-get($display-breakpoints, 'md-and-down')} {
+      font-size: pt2rem(52);
+    }
+  }
+  table {
+    th {
+      border-left: 0 !important;
+    }
+    td {
+      border-left: 0 !important;
+    }
+  }
+  .orders {
+    .v-btn {
+      border-radius: 14px;
+    }
+  }
+  .v-picker {
+    border-radius: 14px;
+  }
+  .v-date-picker-table {
+    td {
+      button.v-btn--disabled:has(:not(div)) {
+        .v-btn__content {
+          color: $error !important;
+        }
+      }
+    }
+  }
+}

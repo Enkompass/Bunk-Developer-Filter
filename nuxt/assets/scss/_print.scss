@@ -1,0 +1,15 @@
+.vue-html2pdf .layout-container[data-v-007c9802] {
+  position: unset !important;
+  width: unset !important;
+  height: unset !important;
+  left: unset !important;
+}
+
+@media print {
+  .v-navigation-drawer {
+    visibility: hidden;
+  }
+  .store-sales-tabulation {
+    margin-left: -170px;
+  }
+}

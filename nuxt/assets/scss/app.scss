@@ -1,0 +1,141 @@
+@import './variables';
+@import '~vuetify/src/styles/settings/_variables';
+@import './functions';
+@import './typography';
+@import './button';
+@import './navbar';
+@import './auth';
+@import './dialog';
+@import './vue_file_agent';
+@import './topbadge';
+@import './print';
+@import './pages/store/top';
+@import './pages/store/order_manage';
+@import './pages/store/store_account';
+@import './pages/store/product_manage';
+@import './pages/store/product_manage_edit';
+@import './pages/store/coupons_manage';
+@import './pages/store/business_hours';
+@import './pages/store/customer_manage';
+@import './pages/store/privacy_policy';
+@import './pages/store/terms_of_use';
+@import './pages/store/sales_tabulation';
+@import './pages/store/chat_room';
+
+@import './pages/admin/top';
+@import './pages/admin/top_shifts';
+@import './pages/admin/order_history';
+@import './pages/admin/chat_room';
+@import './pages/admin/coupon_manage';
+@import './pages/admin/notification';
+@import './pages/admin/sales_manage';
+@import './pages/admin/customer';
+@import './pages/admin/stores';
+@import './pages/admin/deliveries';
+@import './pages/admin/advertise_manage';
+@import './pages/admin/summary_help_edit';
+
+.container--fluid {
+  padding: 35px 40px !important;
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    padding: 25px 20px !important;
+  }
+}
+
+.br-1-grey {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    border-right: unset;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+}
+
+.br-1-grey-fixed {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.v-main__wrap {
+  background-color: #f2f2f2 !important;
+}
+
+.v-data-table > .v-data-table__wrapper > table > thead > tr > th {
+  font-size: pt2rem(14);
+  color: #000000 !important;
+}
+
+table {
+  th {
+    border-left: 1px solid #dddddd;
+  }
+  td {
+    border-left: 1px solid #dddddd;
+  }
+}
+
+.v-date-picker-table {
+  table {
+    th {
+      border-left: 0;
+    }
+
+    td {
+      border-left: 0;
+    }
+  }
+}
+
+.v-radio {
+  .v-label {
+    color: black !important;
+  }
+}
+
+.react-code-input-container {
+  width: 100% !important;
+  text-align: center;
+  .react-code-input {
+    input {
+      margin: 0 5px;
+      background-color: white !important;
+      border-radius: 4px !important;
+      border: 1px grey solid !important;
+    }
+  }
+}
+
+.none-box-shadow {
+  box-shadow: none !important;
+}
+
+//Radio Button deselected color customization
+.v-radio {
+  .v-input--selection-controls__input {
+    i.mdi-radiobox-blank {
+      color: white;
+    }
+  }
+}
+.active-radio-label {
+  .v-label {
+    color: $secondary !important;
+  }
+}
+
+// in mobile size, the app bar was showing under the VueFileAgent Component
+.v-app-bar.v-app-bar--fixed {
+  z-index: 11 !important;
+}
+nav.v-navigation-drawer--fixed {
+  z-index: 12 !important;
+}
+
+// Summary page pre tag styling
+pre {
+  font-family: SF-Pro !important;
+  white-space: pre-line !important;
+  word-wrap: break-word !important;
+}
+
+.v-btn__content.date-color {
+  color: $error !important;
+}

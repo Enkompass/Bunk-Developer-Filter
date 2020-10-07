@@ -1,0 +1,23 @@
+.admin-deliveries {
+  .v-select {
+    @media #{map-get($display-breakpoints, 'md-and-up')} {
+      max-width: 150px;
+    }
+  }
+}
+
+.print-dialog {
+  .pdf-background {
+    height: 900px;
+  }
+  .theme--light.v-tabs > .v-tabs-bar .v-tab:not(.v-tab--active) {
+    color: #B5B5B5 !important;
+  }
+  .v-tabs-items {
+    background-color: transparent !important;
+  }
+  .v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined):not(.v-btn--rounded) {
+    height: 64px !important;
+    border-radius: 50% !important;
+  }
+}

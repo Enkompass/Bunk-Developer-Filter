@@ -1,0 +1,31 @@
+{
+  "auth": {
+    "login": "ログイン",
+    "email": "Eメール",
+    "email_placeholder": "ログインメールを入力…",
+    "password_placeholder": "パスワードを入力…"
+  },
+  "top": {
+    "prepare": "現在準備中",
+    "working": "現在営業中",
+    "order_receive": "受注開始",
+    "today_reserve": "本日の予約",
+    "goto_order_details": "注文詳細へ",
+    "business_hours": "の営業時間",
+    "preorder": "予約注文",
+    "takeout": "テイクアウト",
+    "today_business_hours": "本日の営業時間",
+    "store_name": "店舗名",
+    "address": "住所",
+    "lunch_time": "ランチタイム",
+    "dinner_time": "ディナータイム",
+    "time_insert_warning": "※通しの場合はランチタイムのみ記入してください。",
+    "copied_to_clipboard": "クリップボードにコピー",
+    "cannot_copy": "まねできない"
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "save": "保存",
+    "close": "閉じる"
+  }
+}

@@ -1,0 +1,21 @@
+.top-badge {
+  position: fixed;
+  top: 0;
+  width: calc(100vw - 190px);
+  text-align: center;
+  z-index: 7;
+  background-color: #CE082E;
+  color: white;
+  padding: 5px;
+  margin-left: -40px !important;
+  @media #{map-get($display-breakpoints, 'md-only')} {
+    margin-top: 64px;
+    margin-left: -20px !important;
+    width: 100vw;
+  }
+  @media #{map-get($display-breakpoints, 'sm-and-down')} {
+    margin-top: 56px;
+    margin-left: -20px !important;
+    width: 100vw;
+  }
+}

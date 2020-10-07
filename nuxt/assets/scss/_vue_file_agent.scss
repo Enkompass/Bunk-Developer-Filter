@@ -1,0 +1,145 @@
+$vue_file_agent_border: 12px;
+.profile-pic-upload-block {
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 10;
+    .v-btn__content {
+      font-size: 25px;
+    }
+  }
+  .upload-button {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 10;
+    .v-btn__content {
+      font-size: 25px;
+    }
+  }
+  .grid-block-wrapper .grid-block {
+    min-width: 50px !important;
+  }
+  .vue-file-agent .file-preview-new svg {
+    margin-top: auto !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 2rem !important;
+    height: unset !important;
+  }
+  .vue-file-agent .file-preview-new:before {
+    background-color: white !important;
+    border-radius: 10px !important;
+  }
+  .vue-file-agent.file-input-wrapper {
+    border: none !important;
+  }
+  .vue-file-agent .file-preview .file-preview-img {
+    border-radius: 10px !important;
+  }
+  .vue-file-agent .file-preview-wrapper-image .file-preview .file-preview-overlay {
+    background-color: white !important;
+    border-radius: 10px !important;
+  }
+  .grid-block-wrapper .grid-block .file-preview {
+    padding-bottom: 75% !important;
+    border-radius: 10px !important;
+  }
+  .vue-file-agent .file-preview-wrapper:before {
+    background-color: white !important;
+    border-radius: 10px !important;
+  }
+}
+.multi-select-vue-file-agent {
+  .grid-block-wrapper .grid-block .file-preview {
+    border-radius: $vue_file_agent_border !important;
+    .thumbnail {
+      border-radius: $vue-file_agent_border !important;
+    }
+  }
+
+  .border.active {
+    border: 3px solid #0d7684;
+  }
+  .border.inactive {
+    border: none;
+  }
+  .error-color {
+    border-color: #CE082E !important;
+    color: #CE082E !important;
+  }
+
+  .selected.active {
+    display: block;
+    color: #0d7684;
+  }
+
+  .selected.inactive {
+    display: none;
+    color: #0d7684;
+  }
+
+  .file-preview-overlay {
+    border-radius: $vue_file_agent_border !important;
+  }
+
+  .grid-block-wrapper .grid-block {
+    border-radius: $vue_file_agent_border !important;
+  }
+
+  .vue-file-agent .file-preview-wrapper-image .file-preview:before {
+    border-radius: $vue_file_agent_border !important;
+  }
+  .vue-file-agent .file-preview:after {
+    border-radius: $vue_file_agent_border !important;
+  }
+  .file-preview-overlay {
+    border-radius: $vue_file_agent_border !important;
+  }
+  .vue-file-agent .file-preview-wrapper:before {
+    border-radius: $vue_file_agent_border !important;
+  }
+
+
+  @media (min-width: 1440px) {
+    .grid-block-wrapper .grid-block {
+      width: 14.2856% !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    .grid-block-wrapper .grid-block {
+      width: 14.2856%;
+    }
+  }
+  @media (min-width: 992px) {
+    .grid-block-wrapper .grid-block {
+      width: 16.6666%;
+    }
+  }
+  @media (min-width: 768px) {
+    .grid-block-wrapper .grid-block {
+      width: 20%;
+    }
+  }
+  @media (min-width: 576px) {
+    .grid-block-wrapper .grid-block {
+      width: 25%;
+      border-width: 2px;
+    }
+  }
+  @media (max-width: 576px) {
+    .grid-block-wrapper .grid-block {
+      width: 33.3333% !important;
+    }
+  }
+
+  .grid-block-wrapper .grid-block {
+    min-width: 100px !important;
+  }
+}

@@ -1,0 +1,46 @@
+.admin-chat-room {
+  .chat-content {
+    height: 100vh;
+    margin: -35px -40px -35px 0;
+    @media #{map-get($display-breakpoints, 'md-and-down')} {
+      margin: -25px -20px -25px -20px !important;
+      height: calc(100vh - 56px);
+    }
+    .v-card__title {
+      height: 90px;
+      @media #{map-get($display-breakpoints, 'md-and-down')} {
+        height: 65px;
+        padding: 0 10px;
+      }
+    }
+    .height-100 {
+      height: calc(100vh - 90px);
+      background-color: #F2F2F2 !important;
+      overflow-y: auto;
+      padding-top: 16px !important;
+      @media #{map-get($display-breakpoints, 'md-and-down')} {
+        height: calc(100vh - 122px);
+      }
+    }
+    .v-card__actions {
+      height: 150px;
+      @media #{map-get($display-breakpoints, 'md-and-down')} {
+        height: 50px;
+      }
+    }
+    .v-text-field--outlined {
+      fieldset {
+        border: 0 !important;
+      }
+    }
+  }
+}
+
+.admin-room-list {
+  .tabbtn {
+    font-size: 14px !important;
+  }
+  .border-active {
+    border-bottom: 3px $secondary solid !important;
+  }
+}

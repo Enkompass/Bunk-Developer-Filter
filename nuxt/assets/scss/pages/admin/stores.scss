@@ -1,0 +1,16 @@
+.admin-stores {
+  .v-select {
+    @media #{map-get($display-breakpoints, 'md-and-up')} {
+      max-width: 150px;
+    }
+  }
+  .store_name {
+    height: 38px;
+    width: 160px;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+}

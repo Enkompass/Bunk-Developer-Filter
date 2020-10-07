@@ -1,0 +1,34 @@
+.admin-advertise-manage {
+  .profile-pic-upload-block {
+    width: 200px;
+    height: 130px;
+  }
+  $uploadWidth: 210px;
+  $uploadHeight: 165px;
+  .vue-file-agent {
+    width: $uploadWidth;
+    height: $uploadHeight;
+    .file-preview-wrapper {
+      width: $uploadWidth;
+      height: $uploadHeight;
+      span.file-preview-overlay {
+        width: $uploadWidth;
+        height: $uploadHeight;
+      }
+      span.thumbnail {
+        width: $uploadWidth;
+        height: $uploadHeight;
+      }
+    }
+  }
+  .displayed-image {
+    width: $uploadWidth;
+    height: $uploadHeight;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+  }
+}

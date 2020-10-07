@@ -1,0 +1,7 @@
+.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined):not(.v-btn--rounded) {
+  border-radius: 10px;
+  height: 52px;
+}
+.v-btn.v-size--default {
+  font-size: pt2rem(16);
+}

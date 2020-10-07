@@ -1,0 +1,97 @@
+html,
+body {
+  font-family: 'SF-Pro', sans-serif;
+  font-size: pt2rem(15);
+  font-weight: $font-weight-light;
+}
+
+h1 {
+  font-family: SF-Pro;
+  font-size: pt2rem(40);
+  font-weight: $font-weight-normal;
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    font-size: pt2rem(32);
+  }
+}
+
+h2 {
+  font-family: SF-Pro;
+  font-size: pt2rem(36);
+  font-weight: $font-weight-normal;
+}
+
+.h23 {
+  font-family: SF-Pro;
+  font-size: pt2rem(32);
+  font-weight: $font-weight-normal;
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    font-size: pt2rem(17);
+  }
+}
+
+h3 {
+  font-family: SF-Pro;
+  font-size: pt2rem(28);
+  font-weight: $font-weight-normal;
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    font-size: pt2rem(20);
+  }
+}
+
+h4 {
+  font-family: SF-Pro;
+  font-size: pt2rem(20);
+  font-weight: $font-weight-normal;
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    font-size: pt2rem(14);
+  }
+}
+
+.h45 {
+  font-family: SF-Pro;
+  font-size: pt2rem(18);
+  font-weight: $font-weight-normal;
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    font-size: pt2rem(11);
+  }
+}
+
+h5 {
+  font-family: SF-Pro;
+  font-weight: $font-weight-normal;
+  font-size: pt2rem(16);
+}
+
+h6 {
+  font-family: SF-Pro;
+  font-weight: $font-weight-normal;
+  font-size: pt2rem(14);
+}
+
+span {
+  font-family: SF-Pro;
+}
+
+.h7 {
+  font-family: SF-Pro;
+  font-weight: $font-weight-normal;
+  font-size: pt2rem(11);
+}
+
+.h0 {
+  font-family: SF-Pro;
+  font-size: pt2rem(52);
+  line-height: 1;
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    font-size: pt2rem(36);
+  }
+}
+
+.h67 {
+  font-family: SF-Pro;
+  font-size: pt2rem(14);
+  line-height: 1;
+  @media #{map-get($display-breakpoints, 'md-and-down')} {
+    font-size: pt2rem(12);
+  }
+}

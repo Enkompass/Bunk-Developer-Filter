@@ -1,0 +1,16 @@
+.admin-sales-manage {
+  .total {
+    position: absolute;
+    top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    @media #{map-get($display-breakpoints, 'sm-and-down')} {
+      top: 120px;
+    }
+  }
+  .border-active {
+    border-bottom: 3px $secondary solid !important;
+  }
+}

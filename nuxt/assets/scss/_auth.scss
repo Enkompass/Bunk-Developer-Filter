@@ -1,0 +1,39 @@
+.auth-layout {
+  .v-main__wrap {
+    height: 100%;
+  }
+  .fill-height {
+    height: 100%;
+  }
+  .h-100 {
+    height: 100%;
+  }
+  .image {
+    background-image: url('./../img/auth/LeftSide.svg');
+    background-size: cover;
+    background-position: center center;
+    &:before {
+      content: '';
+      background-image: url('./../img/auth/TopRight.svg');
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 291px;
+      height: 416px;
+      top: -50px;
+      left: calc(50% - 241px);
+    }
+    &:after {
+      content: '';
+      background-image: url('./../img/auth/BottomLeft.svg');
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 291px;
+      height: 416px;
+      bottom: -50px;
+      left: -50px;
+    }
+  }
+  .v-text-field.v-text-field--enclosed .v-text-field__details {
+    margin-bottom: 2px !important;
+  }
+}

@@ -1,0 +1,35 @@
+.store-business-hours {
+  .v-item-group {
+    .v-chip--active {
+      .v-chip__content {
+        color: $error !important;
+        i {
+          color: $error !important;
+        }
+      }
+    }
+  }
+  .v-chip--active::before, .v-chip:focus::before {
+    opacity: 0 !important;
+  }
+  .v-chip--clickable:active {
+    box-shadow: none !important;
+  }
+  .v-chip:not(.v-chip--active) {
+    background: #ffffff;
+  }
+  .v-date-picker-table {
+    td {
+      .v-btn--disabled {
+        .v-btn__content.date-color {
+          color: $error !important;
+        }
+      }
+      button {
+        div.date-color {
+          color: $error !important;
+        }
+      }
+    }
+  }
+}

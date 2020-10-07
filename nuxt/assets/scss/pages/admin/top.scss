@@ -1,0 +1,29 @@
+.admin-store-top {
+  margin-top: -15px;
+  .v-item-group {
+    .v-btn__content {
+      svg {
+        font-size: pt2rem(24);
+      }
+    }
+    .v-btn:not(.v-btn--text):not(.v-btn--outlined):focus:before {
+      opacity: 0 !important;
+    }
+  }
+  .v-card {
+    padding: 20px 30px 30px 30px;
+    @media #{map-get($display-breakpoints, 'md-and-down')} {
+      padding: 10px 12px;
+    }
+  }
+  h1 {
+    font-family: SF-Pro;
+    font-size: pt2rem(44);
+    line-height: 1;
+    @media #{map-get($display-breakpoints, 'md-and-down')} {
+      font-size: pt2rem(40);
+    }
+  }
+  .map-card {
+  }
+}
